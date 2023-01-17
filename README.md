@@ -1,2 +1,1 @@
-# WarcraftSite
-test
+This website will be designed to allow indivduals to like or dislike a dungeon and keep a record of what they've liked or disliked
