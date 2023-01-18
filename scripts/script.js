@@ -22,4 +22,8 @@ window.onmousemove = e => {
     track.dataset.percentage = restrainedPercentage;
 
     track.style.transform = `translate(${restrainedPercentage}%, -50%)`;
+
+    for(const image of track.getElementsByClassName("image")) {
+        image.style.objectPosition = `${restrainedPercentage + 100}% 50%`;
+    }
 }
