@@ -6,6 +6,12 @@ body {
     overflow: hidden;
 }
 
+.imagelabel {
+    width: 45vmin;  
+    height: 10vmax;
+    margin-bottom: 10px;
+}
+
 img {
     -webkit-user-select: none;  /* Chrome all / Safari all */
     -moz-user-select: none;     /* Firefox all */
