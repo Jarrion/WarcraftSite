@@ -9,7 +9,7 @@ body {
 .imagelabel {
     width: 45vmin;  
     height: 10vmax;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 img {
@@ -34,4 +34,12 @@ img {
     height: 56vmin;
     object-fit: cover;
     object-position: 100% 50%;
+    border-radius: 10%;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
 }
+
+#expansion-option > .image:hover {
+    transform: scale(1.05);
+}
+
