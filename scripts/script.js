@@ -21,9 +21,17 @@ window.onmousemove = e => {
 
     track.dataset.percentage = restrainedPercentage;
 
-    track.style.transform = `translate(${restrainedPercentage}%, -50%)`;
+    //track.style.transform = `translate(${restrainedPercentage}%, -50%)`;
+    
+    track.animate({
+        transform: `translate(${restrainedPercentage}%, -50%)`
+    }, { duration: 1200, fill: "forwards" });
 
     for(const image of track.getElementsByClassName("image")) {
-        image.style.objectPosition = `${restrainedPercentage + 100}% 50%`;
+        //image.style.objectPosition = `${restrainedPercentage + 100}% 50%`;
+
+        image.animate({
+            objectPosition: `${restrainedPercentage + 100}% 50%`
+        }, { duration: 1200, fill: "forwards"});
     }
 }
