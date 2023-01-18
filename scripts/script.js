@@ -1,5 +1,5 @@
 const track = document.getElementById("expansion-list");
-const images = document.querySelectorAll("#expansion-list > .image");
+const images = document.querySelectorAll("#expansion-option > .image");
 
 images.forEach(image => {
     image.addEventListener("click", () => {
@@ -25,7 +25,6 @@ window.onmousemove = e => {
     const percentage = (mouseDelta / maxDelta) * -100;
     const nextPercentage = parseFloat(track.dataset.prevPercentage) + percentage;
     const restrainedPercentage = Math.max(Math.min(nextPercentage, 0), -100);
-
     track.dataset.percentage = restrainedPercentage;
 
     //track.style.transform = `translate(${restrainedPercentage}%, -50%)`;

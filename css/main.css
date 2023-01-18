@@ -23,7 +23,7 @@ img {
 
 }
 
-#expansion-list > .image {
+#expansion-option > .image {
     width: 45vmin;
     height: 56vmin;
     object-fit: cover;
