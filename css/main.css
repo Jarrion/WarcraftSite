@@ -5,3 +5,20 @@ body {
     margin: 0rem;
     overflow: hidden;
 }
+
+#expansion-list {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+
+}
+
+#expansion-list > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+}
