@@ -12,43 +12,43 @@
     <div id="expansion-list" data-mouse-down-at="0" data-prev-percentage="0">
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/vanillalogo.webp" draggable="false" />
-        <img class="image" src="assets/images/vanilla_login.webp" draggable="false" />
+        <img class="image" data-expansion="vanilla" src="assets/images/vanilla_login.webp" draggable="false" />
       </div>
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/tbclogo.webp" draggable="false" />
-        <img class="image" src="assets/images/tbc_login.webp" draggable="false" />
+        <img class="image" data-expansion="tbc" src="assets/images/tbc_login.webp" draggable="false" />
       </div>
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/wotlklogo.webp" draggable="false" />
-        <img class="image" src="assets/images/wotlk_login.webp" draggable="false" />
+        <img class="image" data-expansion="wotlk" src="assets/images/wotlk_login.webp" draggable="false" />
       </div>
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/cataclysmlogo.webp" draggable="false" />
-        <img class="image" src="assets/images/cata_login.webp" draggable="false" />
+        <img class="image" data-expansion="cata" src="assets/images/cata_login.webp" draggable="false" />
       </div>
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/moplogo.webp" draggable="false" />
-        <img class="image" src="assets/images/mop_login.webp" draggable="false" />
+        <img class="image" data-expansion="mop" src="assets/images/mop_login.webp" draggable="false" />
       </div>
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/wodlogo.webp" draggable="false" />
-        <img class="image" src="assets/images/wod_login.webp" draggable="false" />
+        <img class="image" data-expansion="wod" src="assets/images/wod_login.webp" draggable="false" />
       </div>
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/legionlogo.webp" draggable="false" />
-        <img class="image" src="assets/images/legion_login.webp" draggable="false" />
+        <img class="image" data-expansion="legion" src="assets/images/legion_login.webp" draggable="false" />
       </div>
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/bfalogo.webp" draggable="false" />
-        <img class="image" src="assets/images/bfa_login.webp" draggable="false" />
+        <img class="image" data-expansion="bfa" src="assets/images/bfa_login.webp" draggable="false" />
       </div>
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/shadowlandslogo.webp" draggable="false" />
-        <img class="image" src="assets/images/shadowlands_login.webp" draggable="false" />
+        <img class="image" data-expansion="shadowlands" src="assets/images/shadowlands_login.webp" draggable="false" />
       </div>
       <div id="expansion-option">
         <img class="imagelabel" src="assets/images/dragonflightlogo.webp" draggable="false" />
-        <img class="image" src="assets/images/dragonflight_login.webp" draggable="false" />
+        <img class="image" data-expansion="dragonflight" src="assets/images/dragonflight_login.webp" draggable="false" />
       </div>
     </div>
 	<script src="scripts/script.js"></script>

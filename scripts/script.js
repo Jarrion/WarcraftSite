@@ -1,11 +1,12 @@
 const track = document.getElementById("expansion-list");
 const images = document.querySelectorAll("#expansion-option > .image");
 
-images.forEach(image => {
-    image.addEventListener("click", () => {
-        window.location.href = "http://www.google.com/";
+for (let i = 0; i < images.length; i++) {
+    images[i].addEventListener('click', function(){
+        const expansion = this.dataset.expansion;
+        location.href = "selection.php?expansion=" + expansion;
     });
-});
+}
 
 window.onmousedown = e => {
     track.dataset.mouseDownAt = e.clientX
