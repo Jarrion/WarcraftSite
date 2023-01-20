@@ -7,39 +7,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Warcraft Dungeons</title>
     <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/dungeons.css">
   </head>
   <body>  
     <div id="image-list">
-    <?php
-        $expansion = $_GET['expansion'];
-        if ($expansion == 'vanilla') {
-            echo "vanilla was selected";
-        } elseif ($expansion == 'tbc') {
-            echo "The Burning Crusade was selected";
-        } elseif ($expansion == 'wotlk') {
-            echo "Wrath of the Lich King was selected";
-        } elseif ($expansion == 'cata') {
-            echo "Cataclysm was selected";
-        } elseif ($expansion == 'mop') {
-            echo "Mists of Pandaria was selected";
-        } elseif ($expansion == 'wod') {
-            echo "Warlords of Draenor was selected";
-        } elseif ($expansion == 'legion') {
-            echo "Legion was selected";
-        } elseif ($expansion == 'bfa') {
-            echo "Battle for Azeroth was selected";
-        } elseif ($expansion == 'shadowlands') {
-            echo "Shadowlands was selected";
-        } elseif ($expansion == 'dragonflight') {
-            echo "Dragonflight was selected";
-        }
-        else {
-            ;
-        }
-    ?>
-
-    <input id="selection" type="hidden" value = "<?= htmlspecialchars($expansion) ?>" />
+        <?php $expansion = $_GET['expansion'];?>
+        <input id="selection" type="hidden" value = "<?= htmlspecialchars($expansion) ?>" />
+        <div id="selectionButtons">
+            <button id="positiveButton">
+                <i class="fa-solid fa-x"></i>
+            </button>
+            <button id="negativeButton">
+            <i class="fa-solid fa-heart"></i>
+            </button>
+        </div>
     </div>
 	<script src="scripts/dungeons.js"></script>
   </body>
