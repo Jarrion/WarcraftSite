@@ -1,0 +1,6 @@
+#selectionButtons {
+    margin-top: 8vmin;
+    display: flex;
+    justify-content: space-around;  
+    padding: 0vmin 4vmin;
+  }
