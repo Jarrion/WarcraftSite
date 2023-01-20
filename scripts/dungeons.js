@@ -6,11 +6,11 @@ const dungeonArrays = {
     wrathOfTheLichKing: ["ahnkahetTheOldKingdom", "azjolnerub", "draktharonKeep", "gundrak", "hallsOfLightning", "hallsOfReflection", "hallsOfStone", "pitOfSaron", "theCullingOfStratholme", "theForgeOfSouls", "theNexus", "theOculus", "theVioletHold", "trialOfTheChampion", "utgardeKeep", "utgardePinnacle"],
     cataclysm: ["blackrockCaverns", "deadmines", "endTime", "grimBatol", "hallsOfOrigination", "hourOfTwilight", "lostCityOfTheTolvir", "shadowfangKeep", "theStonecore", "theVortexPinnacle", "throneOfTheTides", "wellOfEternity", "zulAman", "zulGurub"],
     mistsOfPandaria: ["gateOfTheSettingSun", "mogushanPalace", "scarletHalls", "scarletMonastery", "scholomance", "shadopanMonastery", "siegeOfNiuzaoTemple", "stormstoutBrewery", "templeOfTheJadeSerpent"],
-    warlordsOfDraenor: [],
-    legion: [],
-    battleForAzeroth: [],
-    shadowlands: [],
-    dragonflight: []
+    warlordsOfDraenor: ["auchindoun", "bloodmaulSlagMines", "grimrailDepot", "ironDocks", "shadowmoonBurialGrounds", "skyreach", "theEverbloom", "upperBlackrockSpire"],
+    legion: ["assaultOnVioletHold", "blackRookHold", "cathedralOfEternalNight", "courtOfStars", "darkheartThicket", "eyeOfAzshara", "hallsOfValor",  "mawOfSouls", "neltharionsLair", "returnToKarazhan", "seatOfTheTriumverate", "theArcway", "vaultOfTheWardens"],
+    battleForAzeroth: ["ataldazar", "freehold", "kingsRest", "operationMechagon", "shrineOfTheStorm", "siegeOfBoralus", "templeOfSethraliss", "theMotherlode", "theUnderrot", "tolDagor", "waycrestManor"],
+    shadowlands: ["deOtherSide", "hallsOfAtonement", "mistsOfTirnaScithe", "plaguefall", "sanguineDepths", "spiresOfAscension", "tazaveshTheVeiledMarket", "theNecroticWake", "theaterOfPain"],
+    dragonflight: ["algetharAcademy", "brackenhideHollow", "hallsOfInfusion", "neltharus", "rubyLifePools", "theAzureVault", "theNokhudOffensive", "uldamanLegacyOfTyr"]
 }
 
 const expansionSelection = document.getElementById("selection").value;
