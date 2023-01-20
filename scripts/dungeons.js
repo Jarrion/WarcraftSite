@@ -7,7 +7,7 @@ const dungeonArrays = {
     cataclysm: ["blackrockCaverns", "deadmines", "endTime", "grimBatol", "hallsOfOrigination", "hourOfTwilight", "lostCityOfTheTolvir", "shadowfangKeep", "theStonecore", "theVortexPinnacle", "throneOfTheTides", "wellOfEternity", "zulAman", "zulGurub"],
     mistsOfPandaria: ["gateOfTheSettingSun", "mogushanPalace", "scarletHalls", "scarletMonastery", "scholomance", "shadopanMonastery", "siegeOfNiuzaoTemple", "stormstoutBrewery", "templeOfTheJadeSerpent"],
     warlordsOfDraenor: ["auchindoun", "bloodmaulSlagMines", "grimrailDepot", "ironDocks", "shadowmoonBurialGrounds", "skyreach", "theEverbloom", "upperBlackrockSpire"],
-    legion: ["assaultOnVioletHold", "blackRookHold", "cathedralOfEternalNight", "courtOfStars", "darkheartThicket", "eyeOfAzshara", "hallsOfValor",  "mawOfSouls", "neltharionsLair", "returnToKarazhan", "seatOfTheTriumverate", "theArcway", "vaultOfTheWardens"],
+    legion: ["assaultOnVioletHold", "blackRookHold", "cathedralOfEternalNight", "courtOfStars", "darkheartThicket", "eyeOfAzshara", "hallsOfValor",  "mawOfSouls", "neltharionsLair", "returnToKarazhan", "seatOfTheTriumvirate", "theArcway", "vaultOfTheWardens"],
     battleForAzeroth: ["ataldazar", "freehold", "kingsRest", "operationMechagon", "shrineOfTheStorm", "siegeOfBoralus", "templeOfSethraliss", "theMotherlode", "theUnderrot", "tolDagor", "waycrestManor"],
     shadowlands: ["deOtherSide", "hallsOfAtonement", "mistsOfTirnaScithe", "plaguefall", "sanguineDepths", "spiresOfAscension", "tazaveshTheVeiledMarket", "theNecroticWake", "theaterOfPain"],
     dragonflight: ["algetharAcademy", "brackenhideHollow", "hallsOfInfusion", "neltharus", "rubyLifePools", "theAzureVault", "theNokhudOffensive", "uldamanLegacyOfTyr"]
